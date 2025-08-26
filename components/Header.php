@@ -1,9 +1,9 @@
-<header class="w-full absolute z-10 top-0">
+<header class="w-full fixed z-10 top-0 bg-white">
     <div class="w-full flex items-center justify-center p-2">
-        <img src="assets/logos/logos.svg" alt="logos EDN" class=" h-6 md:h-9">
+        <img src="./assets/logos/logos.svg" alt="logos EDN" class=" h-8">
     </div>
     <div class="w-full flex">
-        <div class="bg-red-ist h-7 sm:h-9 md:h-11 w-full relative"> <!-- NAV BAR FULL SCREEN CONTAINER-->
+        <div class="bg-red-ist h-9 sm:h-11 md:h-13 w-full relative"> <!-- NAV BAR FULL SCREEN CONTAINER-->
             <nav class="hidden md:flex items-center h-full px-2 py-1"> <!-- NAV BAR FULL SCREEN-->
                 <div class="flex gap-4 items-center justify-center w-full">
                     <a class="text-white text-xs font-noto md:text-xs lg:text-base hover:text-gold-enf-ist" href="#">Conoce la EDN</a>
@@ -45,7 +45,7 @@
                     <a class="text-white text-xs font-noto md:text-xs lg:text-base hover:text-gold-enf-ist" href="#">Educación Nutriológica Continua</a>
                 </div>
             </nav>
-            <img src="/assets/icons/list.svg" alt="Boton desplegar menu" class="size-5 sm:size-7 md:hidden absolute right-4 top-1">
+            <img src="./assets/icons/list.svg" alt="Boton desplegar menu" class="size-7 sm:size-7 md:hidden absolute right-4 top-1">
         </div>
         <div class="hidden h-screen md:hidden w-[65%] bg-red-ist py-1 px-2"> <!-- NAV BAR MOBILE CONTAINER-->
             <nav class="w-full flex flex-col items-start gap-4"> <!-- NAV BAR MOBILE-->
@@ -60,7 +60,7 @@
                                 <li class="text-white text-xs font-noto">Alumnos</li>
                             </ul>
                         </a>
-                        <img class="size-3" src="/assets/icons/caret-down-fill.svg" alt="abrir submenú">
+                        <img class="size-3" src="./assets/icons/caret-down-fill.svg" alt="abrir submenú">
                     </div>
                     <div class="flex gap-1.5 items-center">
                         <a class="text-white text-xs font-noto sm:text-sm" href="#">
@@ -70,7 +70,7 @@
                                 <li class="text-white text-xs font-noto">Alumnos</li>
                             </ul>
                         </a>
-                        <img class="size-3" src="/assets/icons/caret-down-fill.svg" alt="abrir submenú">
+                        <img class="size-3" src="./assets/icons/caret-down-fill.svg" alt="abrir submenú">
                     </div>
                     <a class="text-white text-xs font-noto sm:text-sm" href="#">Aspirantes</a>
                     <a class="text-white text-xs font-noto sm:text-sm" href="#">Biblioteca</a>

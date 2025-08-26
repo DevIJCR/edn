@@ -3,7 +3,7 @@
 
 @font-face{
     font-family: 'Patria';
-    src: url("/assets/fonts/Patria_Regular.otf") format("OpenType");
+    src: url("../assets/fonts/Patria_Regular.otf") format("OpenType");
 }
 
 @theme{
