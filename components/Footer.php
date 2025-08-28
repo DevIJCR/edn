@@ -1,4 +1,4 @@
-<footer class="">
+<footer class=" mt-4">
     <div class="flex flex-col items-center">
         <div class="w-full flex flex-col md:hidden py-4 bg-red-ist"> <!-- FOOTER FOR MOBILE-->
             <div class="px-2 py-2 flex items-center justify-center ">
